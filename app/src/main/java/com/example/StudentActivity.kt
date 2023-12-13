@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ListView
+import android.widget.Toast
 import com.Student_Adpter
 import com.example.test3.R
 //import java.util.ArrayList
@@ -25,6 +26,8 @@ class StudentActivity : AppCompatActivity() {
 
         var adpter = Student_Adpter(this,student_list)
         listview.adapter=adpter
+
+        Toast.makeText(this, "", Toast.LENGTH_SHORT).show()
     }
 
 
