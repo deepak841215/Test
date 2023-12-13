@@ -27,7 +27,7 @@ class StudentActivity : AppCompatActivity() {
         var adpter = Student_Adpter(this,student_list)
         listview.adapter=adpter
 
-        Toast.makeText(this, "", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Hello", Toast.LENGTH_SHORT).show()
     }
 
 
